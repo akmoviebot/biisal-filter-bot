@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7586003024:AAGadlSjaYVjcYt-o7Cx8f2Y1U7bTjA
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7532511826').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Akmoviebot7753")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002365464661)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1002459567526
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+nVez0dZEG3NjYWE1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002437172822').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mauryashaurabh771:Sahil7753@cluster0.unwh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
