@@ -64,7 +64,7 @@ SETTINGS = {
             'imdb': IMDB,
             'link': LINK_MODE, 
             'is_verify': IS_VERIFY, 
-           
+} 
 DEFAULT_POST_MODE = {
     'singel_post_mode' : False,
     'all_files_post_mode' : False
