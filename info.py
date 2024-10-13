@@ -30,7 +30,7 @@ URL = environ.get('URL', '')
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akmoviefile0")
-SHORTENER_API = environ.get("SHORTENER_API", "0477d4e75e53295b057c7ed5bf5fd11744b0ee88)
+SHORTENER_API = environ.get("SHORTENER_API", "0477d4e75e53295b057c7ed5bf5fd11744b0ee88")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Luckyurl.in')
 
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
