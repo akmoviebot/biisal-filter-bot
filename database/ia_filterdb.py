@@ -10,7 +10,8 @@ from marshmallow.exceptions import ValidationError
 from info import DATABASE_URI, DATABASE_NAME, COLLECTION_NAME, MAX_BTN
 
 client = AsyncIOMotorClient(DATABASE_URI)
-instance = Instance.from_db(mdb)
+mydb = client[DATABASE_NAME]
+instance = Instance.from_db(mydb)
 
 @instance.register
 class Media(Document):
